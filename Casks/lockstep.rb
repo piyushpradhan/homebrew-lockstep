@@ -1,6 +1,6 @@
 cask "lockstep" do
-  version "0.1.9"
-  sha256 "f10345e7444172ae03d5205d48c9972865b339981cf0a594debe23f6dcf129ff"
+  version "0.1.10"
+  sha256 "99c83ab85406d5544cd701b61d99515ce4d7f2b622671f2ae1479e8d7958d88e"
 
   url "https://github.com/piyushpradhan/homebrew-lockstep/releases/download/v#{version}/Lockstep_#{version}_arm64.dmg",
       verified: "github.com/piyushpradhan/homebrew-lockstep/"
@@ -14,7 +14,7 @@ cask "lockstep" do
   end
 
   auto_updates false
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
   depends_on arch: :arm64
 
   app "Lockstep.app"
