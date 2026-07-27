@@ -1,6 +1,6 @@
 cask "lockstep" do
-  version "0.1.11"
-  sha256 "e9dae1b490264787f986c25370af22973bee5e0082763dde8496fada0f53c7ee"
+  version "0.1.12"
+  sha256 "bac3e75a9e7ac2be08f95a0541cb32e817909582901db9a2382156ed2a41e061"
 
   url "https://github.com/piyushpradhan/homebrew-lockstep/releases/download/v#{version}/Lockstep_#{version}_arm64.dmg",
       verified: "github.com/piyushpradhan/homebrew-lockstep/"
